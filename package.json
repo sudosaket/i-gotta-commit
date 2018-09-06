@@ -1,0 +1,16 @@
+{
+  "name": "random-lyric",
+  "version": "0.1.0",
+  "description": "Get a memorable random line from amazing songs!",
+  "main": "index.js",
+  "repository": "https://github.com/sudosaket/random-lyric",
+  "author": "Saket Mehta <sudosaket@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/sudosaket/random-lyric",
+  "dependencies": {
+    "commander": "^2.17.1"
+  },
+  "bin": {
+    "lyric": "./index.js"
+  }
+}
