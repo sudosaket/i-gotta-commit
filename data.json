@@ -1,12 +1,17 @@
 [
-    {
-        "name": "Tremble for My Beloved",
-        "artist": "Collective Soul",
-        "line": "Oh I'll tremble for your love always"
-    },
-    {
-        "name": "Resistance",
-        "artist": "Muse",
-        "line": "It could be wrong, could be wrong, but it should have been right"
-    }
+  {
+    "title": "Tremble for My Beloved",
+    "artist": "Collective Soul",
+    "line": "Oh I'll tremble for your love always"
+  },
+  {
+    "title": "Resistance",
+    "artist": "Muse",
+    "line": "It could be wrong, could be wrong, but it should have been right"
+  },
+  {
+    "line": "Don't criticize what you can't understand.",
+    "artist": "Bob Dylan",
+    "title": "The Times They Are A-Changin'"
+  }
 ]
