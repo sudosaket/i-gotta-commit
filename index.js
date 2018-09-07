@@ -2,11 +2,12 @@
 
 const program = require('commander');
 const fs = require('fs');
+const pkg = require('./package.json');
 
 const DATA_FILE = __dirname + '/data.json';
 
 program
-    .version('0.1.0')
+    .version(pkg.version)
     .description("Get a memorable random line from amazing songs!")
     .option('-t, --test');
 
