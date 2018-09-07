@@ -1,4 +1,4 @@
-# Fill you commit history with awesome song lyrics 🎵⚡️
+# Fill you commit history with awesome song lyrics :musical-note:
 
 > Because why not
 
