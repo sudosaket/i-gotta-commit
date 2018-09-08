@@ -1,6 +1,6 @@
 {
   "name": "i-gotta-commit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fill you commit history with awesome song lyrics 🎵 💥",
   "main": "index.js",
   "repository": "https://github.com/sudosaket/i-gotta-commit",
