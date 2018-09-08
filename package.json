@@ -1,7 +1,7 @@
 {
   "name": "i-gotta-commit",
   "version": "0.1.0",
-  "description": "Get a memorable random line from amazing songs!",
+  "description": "Fill you commit history with awesome song lyrics 🎵 💥",
   "main": "index.js",
   "repository": "https://github.com/sudosaket/i-gotta-commit",
   "author": "Saket Mehta <sudosaket@outlook.com>",
