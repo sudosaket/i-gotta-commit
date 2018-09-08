@@ -1,16 +1,16 @@
-# Fill you commit history with awesome song lyrics
+# I gotta commit!
 
 > Because why not
 
 ## Installation
 ```
-yarn global add random-lyric
+yarn global add i-gotta-commit
 ```
  
  or
  
 ```
-npm install -g random-lyric
+npm install -g i-gotta-commit
 ```
  
  

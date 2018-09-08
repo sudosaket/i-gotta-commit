@@ -37,7 +37,7 @@ function main() {
     let index = generateRandomInteger(0, entries.length);
     let lyrics = entries[index];
     let lines = lyrics.split('\\n');
-    lines.forEach(line => console.log(line));
+    lines.forEach(line => console.log(line.trim()));
 }
 
 main();
