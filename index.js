@@ -4,22 +4,16 @@ const program = require('commander');
 const fs = require('fs');
 const pkg = require('./package.json');
 
-const DATA_FILE = __dirname + '/data.json';
+const DATA_FILE = __dirname + '/lyrics.txt';
 
 program
     .version(pkg.version)
-    .description("Get a memorable random line from amazing songs!")
-    .option('-t, --test');
+    .description("Fill you commit history with awesome song lyrics 🎵 💥");
 
 program
-    .command('add <line>')
-    .option('-a, --artist <artist>', 'artist of the song')
-    .option('-t --title <title>', 'name of the song')
-    .action(function (line, options) {
-        let entry = createEntry(line, options.artist, options.title);
-        let data = readDataFromFile(DATA_FILE);
-        data.push(entry);
-        writeDataToFile(DATA_FILE, JSON.stringify(data, null, 2));
+    .command('add <lyrics>')
+    .action(function (lyrics) {
+        writeDataToFile(DATA_FILE, lyrics.trim());
         process.exit(0);
     });
 
@@ -30,27 +24,20 @@ function generateRandomInteger(min, max) {
 }
 
 function readDataFromFile(fileName) {
-    return JSON.parse(fs.readFileSync(fileName), 'utf8');
+    let rawData = fs.readFileSync(fileName);
+    return rawData.toString().split('\n').map(line => line.trim());
 }
 
 function writeDataToFile(fileName, data) {
-    fs.writeFileSync(fileName, data, 'utf8');
-}
-
-function createEntry(line, artist, title) {
-    return {
-        "line": line,
-        "artist": artist,
-        "title": title
-    };
+    fs.appendFileSync(fileName, data);
 }
 
 function main() {
     let entries = readDataFromFile(DATA_FILE);
     let index = generateRandomInteger(0, entries.length);
-    let entry = entries[index];
-    let line = entry.line;
-    console.log(line);
+    let lyrics = entries[index];
+    let lines = lyrics.split('\\n');
+    lines.forEach(line => console.log(line));
 }
 
 main();
