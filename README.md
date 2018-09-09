@@ -19,13 +19,13 @@ npm install -g i-gotta-commit
 Simply type in `lyric` to get a few random lines from popular songs.
 
 ```
-lyric
+lyrics
 ```
 
 A cool way to use this is like to create an alias for the following:
 
 ```
-lyric | git commit -F -
+lyrics | git commit -F -
 ```
 
 ## Add more lyrics
