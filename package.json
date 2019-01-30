@@ -4,7 +4,7 @@
   "description": "Fill you commit history with awesome song lyrics 🎵 💥",
   "main": "index.js",
   "repository": "https://github.com/sudosaket/i-gotta-commit",
-  "author": "Saket Mehta <sudosaket@outlook.com>",
+  "author": "Saket Mehta <sudosaket@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/sudosaket/i-gotta-commit",
   "dependencies": {

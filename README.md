@@ -16,7 +16,7 @@ npm install -g i-gotta-commit
  
 ## Usage
 
-Simply type in `lyric` to get a few random lines from popular songs.
+Simply type in `lyrics` to get a few random lines from popular songs.
 
 ```
 lyrics
