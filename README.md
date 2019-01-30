@@ -1,30 +1,30 @@
-# I gotta commit!
+# I Gotta Commit
 
 > Because why not
 
 ## Installation
-```
+
+```sh
 yarn global add i-gotta-commit
 ```
- 
- or
- 
-```
+
+or
+
+```sh
 npm install -g i-gotta-commit
 ```
- 
- 
+
 ## Usage
 
 Simply type in `lyrics` to get a few random lines from popular songs.
 
-```
+```sh
 lyrics
 ```
 
 A cool way to use this is like to create an alias for the following:
 
-```
+```sh
 lyrics | git commit -F -
 ```
 
