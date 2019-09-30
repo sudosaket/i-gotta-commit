@@ -5,12 +5,6 @@
 ## Installation
 
 ```sh
-yarn global add i-gotta-commit
-```
-
-or
-
-```sh
 npm install -g i-gotta-commit
 ```
 
